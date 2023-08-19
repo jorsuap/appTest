@@ -31,8 +31,17 @@
                 "output": "./svg"
               }
             ],
-            "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": []
+            "styles": [
+              {
+                "input": "src/theme/variables.scss"
+              },
+              {
+                "input": "src/global.scss"
+              },
+              {
+                "input": "node_modules/animate.css/animate.min.css"
+              }
+            ]
           },
           "configurations": {
             "production": {
